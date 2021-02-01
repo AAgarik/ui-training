@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    text-transform: uppercase; 
+    font-weight:bold;
+    display:block;
+    width: 1140px;
+    margin: 0 auto;
+}
+.container{
+    width:1140px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.nav-text{
+    display:inline;
+}
+.nav-img{
+    display:inline;
+}
+.nav-img a{
+    display:inline-block;
+    padding:0px 49px 0px 19px;
+    font-size: 12px;
+}
+.nav-text a{
+    display:inline-block;
+    padding:12px;
+    font-size: 12px;
+    color:#9daeb6;
+    text-decoration: none;
+}
+.nav-text a:hover{
+    text-decoration: underline;
+}
