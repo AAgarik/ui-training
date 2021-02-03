@@ -1,6 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/*nav*/
 .nav{
     text-transform: uppercase; 
     display:block;
@@ -8,22 +11,9 @@ body{
     margin: 0 auto;
     margin-top:22px;
 }
-.container{
-    width:1140px;
-    height: 1000px;
-    margin: 0 auto;
-}
+
 .nav-text{
     display:inline;
-}
-.nav-img{
-    display:inline;
-}
-.nav-img a{
-    display:inline-block;
-    padding:0px 49px 0px 19px;
-    font-size: 12px;
-    /*margin-top:15px; Працює неправильно*/
 }
 .nav-text a{
     display:inline-block;
@@ -36,6 +26,17 @@ body{
 .nav-text a:hover{
     text-decoration: underline;
 }
+
+.nav-img{
+    display:inline;
+}
+.nav-img a{
+    display:inline-block;
+    padding:0px 49px 0px 19px;
+    font-size: 12px;
+    /*margin-top:15px; Працює неправильно*/
+}
+
 .nav-botton{
     display:inline;
 }
@@ -51,4 +52,11 @@ body{
     border-radius: 4px;
     padding: 16px 43px 15px 43px;
     margin-left:234px;
+}
+
+/*basic container*/
+.container{
+    width:1140px;
+    height: 1000px;
+    margin: 0 auto;
 }
